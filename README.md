@@ -5,6 +5,6 @@ python
 
 shell上で次のコマンドを実行
 
-'''
+```
 python recipe.py
-'''
+```
