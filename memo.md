@@ -32,3 +32,18 @@ recipe_listから取り出されるrecipeは後ろに情報をつけなくても
 
 ###この書き方の一言説明
 文脈判断によるシンプル変数名
+
+
+
+### 実際のコード
+https://github.com/dorapon2000/ch1ca0-sezemi-2015-readable-code/commit/b4b02a91065102a62b9458dc511cb16dfd1e4694
+
+### どうしてリーダブルだと思ったのかの説明
+```python
+recipe_file = open('recipe-data.json', 'r')
++recipe_json = json.load(recipe_file)
+```
+recipe_fileとrecipe_jsonでレシピを分けることで、どの型のレシピなのかわかりやすくてリーダブル
+
+###この書き方の一言説明
+コメント変数
