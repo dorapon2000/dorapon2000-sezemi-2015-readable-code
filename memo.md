@@ -1,5 +1,7 @@
+### 実際のコード
 dorapon2000-sezemi-2015-readable-code/recipe.py
 
+### どうしてリーダブルだと思ったのかの説明
 ```python
 recipe_file = sys.argv[1]
 file_object = open(recipe_file,"r")
