@@ -31,3 +31,7 @@ $ python recipe.py recipe_data.txt
 ```
 
 実行は仕様3の時と同じである
+
+#TODO
+いまさらながらrecipe_dataではstring型ではなくてobjectにも見えてしまいそう
+recipe_infoとかの方がよかったかも
